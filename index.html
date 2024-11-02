@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./assets/icons/icon.png" type="image" />
+    <title>Book Collection Manager</title>
+  </head>
+  <body>
+    <div id="container">
+      <form id="main">
+        <label for="CollectionManager">
+          <h1>: : : Book Collection Manager : : :</h1>
+        </label>
+        <input type="text" placeholder="Book Title" id="book_title" />
+        <input type="text" placeholder="Author Name" id="author_name" />
+        <input
+          type="text"
+          placeholder="Publication Year"
+          id="publication_year"
+        />
+        <input type="text" placeholder="Genre" id="genre" />
+        <button type="button" id="add_book">Add Book</button>
+      </form>
+      <h2>: : : Book List : : :</h2>
+      <div id="child">
+        <ul id="list"></ul>
+      </div>
+    </div>
+    <footer>
+      <p class="footerTxt">
+        ~ All rights reserved &copy; 2024, Yara | Muka BootCamp ~
+      </p>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>

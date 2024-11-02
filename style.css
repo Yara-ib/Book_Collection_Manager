@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+* {
+  font-family: "Bree Serif", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+body {
+  display: block;
+  background-color: #feece2;
+  margin-bottom: 2rem;
+  max-width: 100%;
+  text-align: center;
+  padding: 5rem;
+  color: #2a697c;
+  background-image: url('./assets/images/img-bk1.gif');
+  background-size:100%;/
+}
+
+h1, h2 {
+  font-family: "Oxanium", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:800;
+  font-style: normal;
+  line-height: 2.5rem;
+  color: #4f8c9e;
+}
+
+#container {
+  display: block;
+  max-width: 50%;
+  margin: auto;
+  align-items: center;
+  background-color: #f7ded0;
+  border-radius: 1.5rem;
+  text-align: center;
+  padding-bottom:2em;
+}
+#main{
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  justify-content: center;
+  margin: auto;
+  padding: 2rem;
+}
+
+#list{
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+  align-items:center;
+  margin: auto;
+  background-color: #b7c4c8;
+  padding: 2rem;
+}
+
+li{
+  text-align: left;
+  max-width: 100%;
+  padding: 0.5rem;
+}
+
+#list>button {
+  background-color: #feece2;
+  color: #4f8c9e;
+}
+
+#list>button:hover{
+  background-color: #4f8c9e;
+  color: #feece2;
+}
+
+input,
+button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-style:hidden;
+  border-radius: 0.5em;
+}
+
+ul, #child {
+  list-style: none;
+  max-width: 85%;
+  margin: auto;
+  background-color: #f0f4f6;
+  background-blend-mode: hue;
+  border-radius: 0.5em;
+}
+
+button {
+  background-color: #b7c4c8;
+  font-size: 1rem;
+  color: #feece2;
+}
+
+button:hover {
+  background-color: #feece2;
+  color: #290001;
+  cursor: pointer;
+}
+
+.footerTxt{
+  font-size: small;
+}
